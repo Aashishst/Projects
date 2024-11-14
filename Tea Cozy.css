@@ -1,3 +1,154 @@
 html{
-    background-color: blacks;
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    max-height: 1500px;
+  }
+
+body{
+    max-height: 2000px;
+}
+
+header{
+    display: flex;
+    border-bottom: 1px solid seashell;
+    margin:0
+}
+
+h1{
+    margin-top: 3px;
+    margin:0;
+}
+
+nav{
+    display: flex;
+    position: relative;
+    left: 740px;
+    top: -5px;
+}
+
+#p{
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+
+.one{
+    position: relative;
+    left: 50px;
+}
+
+.mission{
+    position: relative;
+    top: -500px;
+    text-align: center;
+    background-color: black;
+}
+
+.Tea{
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+
+#txt, #txt-1{
+    position: relative;
+    left: 50px;
+}
+
+#txt-1{
+    position: relative;
+    left: 205px;
+}
+
+.img{
+    max-width: 1200px;
+    position: relative;
+    left: 150px;
+    display: flex;
+}
+
+#img{
+    position: relative;
+    left: 150px;
+    margin-right: 20px;
+}
+
+#img-1{
+    margin-right: 20px;
+}
+
+.I-1, .I-2, .I-3, .I-4, .I-5{
+    display: block;
+}
+
+.row-2{
+    display: inline-flex;
+    position: relative;
+    left: 150px;
+}
+
+.Cozy{
+    position: relative;
+    top: -100px;
+
+}
+
+.final-img{
+    position: relative;
+    left: 40px;
+    top: -60px;
+}
+
+.L{
+    display: flex;
+    text-align: center;
+}
+
+#L, .L{
+    text-align: center;
+    position: relative;
+    top: -770px
+}
+
+.L-1, .L-2, .L-3{
+    margin-right: 20px;
+    position: relative;
+    left: 265px;
+    background-color: black;
+    width: 300px;
+}
+
+.L-1{
+    position: relative;
+    left: 140px;
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+}
+
+.L-2, .L-3{
+    position: relative;
+    left: 140px;
+}
+
+#P{
+    margin-bottom: 40px;
+}
+
+.contact{
+    text-align: center;
+    position: relative;
+    top:-670px;
+    background-color: black;
+    height: 300px;
+    overflow-y: hidden;
+}
+
+.copyright{
+    position: relative;
+    top: -800px;
+    left: 20px;
 }
